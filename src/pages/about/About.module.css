@@ -1,0 +1,35 @@
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  border-radius: 25px;
+  width: 50rem;
+  margin-bottom: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  padding: 2rem 5rem;
+  margin: 4rem;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  font-family: "Poppins";
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.para {
+  color: rgb(87, 87, 87);
+  margin-bottom: 3rem;
+}

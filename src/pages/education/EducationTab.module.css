@@ -1,0 +1,61 @@
+.degreeContent {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(250, 250, 250);
+  padding: 2rem;
+  border-radius: 25px;
+  width: 80vw;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.upper {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 2rem;
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.lower {
+  display: inline-block;
+  line-height: 2;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 800px) {
+    width: 20rem;
+  }
+  @media (max-width: 1000px) {
+    width: 20rem;
+  }
+}
+
+.img {
+  border: rgba(212, 210, 210, 0.527) solid 1rem;
+
+  border-radius: 50%;
+}

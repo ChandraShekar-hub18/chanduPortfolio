@@ -1,0 +1,18 @@
+.container {
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
+}
+
+.certificateContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8rem;
+
+  @media (max-width: 1900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,16 @@
+.content {
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
+}
+
+.para {
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+}
+
+.projectStatus {
+  color: rgba(240, 248, 255, 0.986);
+
+  margin: auto;
+}
