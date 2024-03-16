@@ -7,7 +7,7 @@ export const EducationData = [
     duration: "2016 - 2019",
     description: [
       "I have studied basic embedded programming, using C. How to program micro controllers.",
-      "Apart of that I learned Java and oops for building Mobile applications.",
+      "Learned Basic semiconductors operations, Digital electronics and communication etc.,",
     ],
     image: "/images/trr.png",
   },
@@ -19,8 +19,7 @@ export const EducationData = [
     duration: "2019 - 2022",
     description: [
       "I have studied on VLSI, embedded programming using c language for 8086 micro controllers.",
-      "I learned networking like tools called wireshark.",
-      "Got understanding on operating system and how its works what is magic memory. Difference between linux, windows and more.",
+      "Got good understanding on semiconductors, oscillators and amplifiers and more.",
     ],
     image: "/images/cmr.png",
   },
